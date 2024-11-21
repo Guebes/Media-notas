@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.container{
+
+    max-width: 960px; /* Tamanho padrão, independete do tamanho do monitor*/
+    width: 100%; /*Irá ter 100% da largura definida acima, respeitando o body
+                independentemente da largura do monitor que a pessoa estiver*/
+    margin: 0 auto; /*Utilizado "auto" para centralizar o body na horizontal*/
+    margin-left: 530px;
+}
+
+header{
+
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+}
+
+form input{
+
+    border: none;
+    padding: 1px 1px 1px 1px;
+    border-bottom: 2px solid;
+    margin-left: 20px;
+}
+
+form{
+    display: flex;
+    margin: 4px 4px 4px 4px;
+    height: 33px;
+}
+
+form button{
+
+    max-height: 33px;
+    height: 100%;
+    
+}
+
+form button h3{
+
+    margin-top: 3px;
+}
+
+form button {
+
+    padding: 1px 10px 1px 10px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    font-size: normal 2px;
+    cursor: pointer;
+    transition: ease 0.9s;
+    margin-left: 20px;
+}
+
+header img{
+
+    height: 40px;
+}
+
+body{
+
+    background-color: rgb(214, 212, 212);
+}
+
+button:hover {
+    
+    background-color: greenyellow;
+}
+
+table{
+    
+   width: 60%;
+    margin-top: 40px;
+    margin-left: -50px;
+    font-size: 20px;
+}
+
+table img{
+
+    height: 30px;
+}
+
+table th{
+
+    border-bottom: 2px solid;
+}
+
+table td{
+
+    text-align: center; 
+    border-bottom: 2px solid rgb(185, 181, 181);
+    padding: 10px;
+}
+
+.resultado{
+    color: white;
+    padding: 2px;
+    font-weight: solid;
+    border-radius: 9px;
+    background-color: black;
+}
+
+.aprovado{
+
+    background-color: green;
+}
+
+.reprovado{
+
+    background-color: red;
+}
